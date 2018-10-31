@@ -11,7 +11,7 @@ if [ ! -d course-dl1 ]; then
         ln -s /root/.torch/models /content
         ln -s /root/.fastai/data /content
         rm -rf /content/sample_data/
-        git clone https://github.com/fastai/courses/deeplearning1
+        git clone https://github.com/fastai/courses
 fi
 
 pip install fastai --upgrade
